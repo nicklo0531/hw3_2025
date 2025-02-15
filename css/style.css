@@ -10,6 +10,10 @@ ul li a:hover, ul li a:focus {
      text-decoration: underline;
 }
 
+.skip {
+     position: relative;
+}
+
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
 .skip a {
      position: absolute;
@@ -35,7 +39,7 @@ ul li a:hover, ul li a:focus {
 }
 
 /* Step 5: Write selector/rule property to add the background image to the 
-first div in the grid  and place it in the grid. */
+first div in the grid and place it in the grid. */
 .container > :first-child {
      background-image: url('../images/header.jpg');
      background-attachment: fixed; /* Parallax effect */     
@@ -51,23 +55,31 @@ first div in the grid  and place it in the grid. */
 .about{
      grid-column: 2/3;
      grid-row: 2;
+     text-align: center;
+     margin: auto;
 }
 
 .method {
      grid-column: 2/3;
      grid-row: 3;
+     text-align: center;
+     margin: auto;
 }
 
 .clients {
      grid-column: 2/3;
      grid-row: 4;
+     text-align: center;
+     margin: auto;
 }
 
 .contact {
      grid-column: 2/3;
      grid-row: 5;
+     text-align: center;
+     margin: auto;
 }
-      /*This will be a lot of rules.... but be strategic and combine seletors*/
+      /*This will be a lot of rules.... but be strategic and combine selectors*/
 .about-image {
      grid-column: 1/-1;
      grid-row: 2;
@@ -128,7 +140,7 @@ first div in the grid  and place it in the grid. */
   /* Step 13: Write the selector/rule property to update the .text-block class */
      .text-block {
           max-height: 250px;
-
+          overflow: auto;
      }
 }
 
