@@ -56,28 +56,28 @@ first div in the grid and place it in the grid. */
      grid-column: 2/3;
      grid-row: 2;
      text-align: center;
-     margin: auto;
+     /* margin: auto; */
 }
 
 .method {
      grid-column: 2/3;
      grid-row: 3;
      text-align: center;
-     margin: auto;
+     /* margin: auto; */
 }
 
 .clients {
      grid-column: 2/3;
      grid-row: 4;
      text-align: center;
-     margin: auto;
+     /* margin: auto; */
 }
 
 .contact {
      grid-column: 2/3;
      grid-row: 5;
      text-align: center;
-     margin: auto;
+     /* margin: auto; */
 }
       /*This will be a lot of rules.... but be strategic and combine selectors*/
 .about-image {
@@ -112,6 +112,7 @@ first div in the grid and place it in the grid. */
 .text-block {
      justify-content: center;
      align-items: center;
+     align-self: center;
 }
 
 /* Add your media query here */
